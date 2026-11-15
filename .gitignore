@@ -20,6 +20,7 @@ anti-slop/
 
 # Cloudflare Wrangler Local State & Databases (Local Cache & SQLite)
 .wrangler/
+wrangler.toml
 *.sqlite
 *.sqlite3
 *.db
