@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production Build Outputs
+dist/
+dist-ssr/
+
+# Internal Specs, Screenshots & Binary Docs (Not needed on GitHub)
+docs/
+
+# AI Coding Agent Tools & Local State
+.gemini/
+.impeccable/
+GEMINI.md
+antislop.md
+anti-slop/
+~
+
+# Cloudflare Wrangler Local State & Databases (Local Cache & SQLite)
+.wrangler/
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS Artifacts
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

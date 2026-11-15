@@ -1,0 +1,12 @@
+name = "kiracelik-dwibahasa"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-01-01"
+
+# Cloudflare D1 SQLite Database Binding
+# Test locally: npx wrangler d1 execute kiracelik-db --local --file=./database/schema.sql
+# Dev server: npx wrangler pages dev dist --d1=DB=local-kiracelik-db
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kiracelik-db"
+database_id = "9130d08d-cc83-42c9-849d-2e61239c2a26"

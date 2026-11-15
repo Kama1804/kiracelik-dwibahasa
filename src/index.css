@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FAF6EE;
+    color: #0F172A;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Accessible High-Contrast Focus Visible Outline */
+  :focus-visible {
+    outline: 2px solid #0F172A;
+    outline-offset: 2px;
+  }
+
+  /* Interactive Cursor Affordances */
+  button:not(:disabled),
+  select:not(:disabled),
+  summary,
+  [role="button"] {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  select:disabled,
+  input:disabled {
+    cursor: not-allowed;
+  }
+
+  /* Tabular Numerals for Jitter-Free Math, Timers & Scores */
+  .tabular-nums,
+  .font-mono,
+  input,
+  select {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Authentic Malaysian Buku Latihan Petak (Square-Grid Math Workbook) Lines */
+.bg-math-grid {
+  background-color: #FFFFFF;
+  background-image: 
+    linear-gradient(to right, #E0F2FE 1px, transparent 1px),
+    linear-gradient(to bottom, #E0F2FE 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.bg-math-paper {
+  background-color: #FAF6EE;
+  background-image: 
+    radial-gradient(#E2D9C8 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Tactile Neo-Brutalist Box Shadows & Press Effects */
+.shadow-tactile {
+  box-shadow: 4px 4px 0px #0F172A;
+}
+
+.shadow-tactile-sm {
+  box-shadow: 2px 2px 0px #0F172A;
+}
+
+.shadow-tactile-lg {
+  box-shadow: 6px 6px 0px #0F172A;
+}
+
+.btn-tactile {
+  border: 2px solid #0F172A;
+  box-shadow: 0 4px 0 #0F172A;
+  transition: transform 0.05s ease, box-shadow 0.05s ease;
+}
+
+.btn-tactile:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #0F172A;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border: 2px solid #0F172A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Specific Utility to remove / hide scrollbars while preserving full scrollability */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.no-scrollbar {
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important;    /* Firefox */
+}
