@@ -1,7 +1,5 @@
-// src/components/AnalyticsDashboard.jsx
 // Tactile Neo-Brutalist Swiss Educational Grid Dashboard
 // Coordinated tutor workspace: Performance, Question Bank, Paper Builder, and Student Management tabs.
-// Full BM | EN | DWIBAHASA localization support.
 
 import { useState } from "react";
 import PerformanceTab from "./tutor/PerformanceTab.jsx";

@@ -1,4 +1,3 @@
-// src/components/tutor/StudentManagementTab.jsx
 import { useState, useMemo } from "react";
 import { UserPlus, Trash2, Search, Filter, Edit3, X } from "lucide-react";
 import { toast, confirmAction } from "../ui/toast.js";

@@ -1,9 +1,3 @@
-// src/engine/questionGenerator.js
-// DSKP KSSR Semakan — Non-Repeating Sub-Skill Question Engine
-// Covers all 9 topic families across Darjah 1, 2, and 3 strictly following
-// Section 3 of docs/9_LOCAL_UPGRADE_DSKP_AND_DESIGN_SPEC.md.
-// Every question provides a structured visualSpec for interactive SVG rendering.
-
 import { getTopicsByDarjah } from "./syllabusConfig.js";
 
 // ─── Deterministic Random Helpers ────────────────────────────────────

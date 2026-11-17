@@ -1,10 +1,3 @@
-// src/components/PracticeModal.jsx
-// Authentic Malaysian Primary School Math Workbook Practice Screen
-// Full-Screen Dedicated View, tactile Neo-Brutalist primary school aesthetic,
-// normalized logical scratchpad (800x480) with Undo/Clear and touch-action none,
-// topic parts support with skip and return navigation, arithmetic symbols (+, −, ×, ÷),
-// and responsive desktop/laptop layout.
-
 import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import confetti from "canvas-confetti";
 import {

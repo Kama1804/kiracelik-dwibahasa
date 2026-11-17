@@ -1,4 +1,3 @@
-// src/components/tutor/QuestionEditorModal.jsx
 import { useState, useMemo } from "react";
 import {
   X,

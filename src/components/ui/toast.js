@@ -1,6 +1,3 @@
-// src/components/ui/toast.js
-// Tactile Neo-Brutalist Toast & Confirmation Event Utility
-
 export const toast = {
   success(message, title = "") {
     if (typeof window !== "undefined") {

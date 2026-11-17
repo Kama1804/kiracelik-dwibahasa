@@ -1,4 +1,3 @@
-// src/components/tutor/QuestionPreviewModal.jsx
 import { X } from "lucide-react";
 import QuestionVisualFigure from "../visuals/QuestionVisualFigure.jsx";
 import { normalizeQuestionFields } from "../../engine/questionGenerator.js";

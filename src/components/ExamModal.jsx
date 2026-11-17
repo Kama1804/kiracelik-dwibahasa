@@ -1,11 +1,3 @@
-// src/components/ExamModal.jsx
-// Official Malaysian Primary School Final Exam Paper (Ujian Akhir Darjah)
-// Full-Screen Dedicated View, tactile Neo-Brutalist primary school aesthetic,
-// normalized logical scratchpad (800x480) with Undo/Clear and touch-action none,
-// missing-answer & scratchpad notification dialog with direct question jump buttons,
-// confirmation dialog before final submission, arithmetic symbols (+, −, ×, ÷),
-// and responsive desktop/laptop layout.
-
 import { useState, useCallback, useRef, useEffect } from "react";
 import {
   generateFinalExamPaper,

@@ -1,4 +1,3 @@
-// src/components/ui/ConfirmModal.jsx
 import { useState, useEffect } from "react";
 import { AlertTriangle, X } from "lucide-react";
 

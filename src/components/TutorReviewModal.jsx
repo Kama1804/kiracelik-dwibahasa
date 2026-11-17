@@ -1,10 +1,3 @@
-// src/components/TutorReviewModal.jsx
-// Dedicated Malaysian KSSR Primary School Final Exam Tutor Review & Grading Panel
-// Allows tutor to inspect question paper snapshots, student responses, scratchpad working,
-// adjust method (K1) and answer (N1) marks for Sec A, B, C or custom multi-field questions,
-// enlarge student scratchpad sketches, and finalize official results with threshold logic.
-// Rendered via React createPortal to document.body with fixed inset-0 top-0 left-0 z-[9999] to eliminate top gaps.
-
 import { useState, useMemo, useEffect } from "react";
 import { createPortal } from "react-dom";
 import {

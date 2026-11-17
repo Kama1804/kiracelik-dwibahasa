@@ -1,8 +1,3 @@
-// src/components/visuals/QuestionVisualFigure.jsx
-// Deterministic, textbook-grade inline SVG renderer for Malaysian Primary School KSSR Matematik
-// Scaled 2.5x to 3x with tactile, anti-AI-slop textbook styling, oversized diagrams, and pedagogical aids.
-// Full BM | EN | DWIBAHASA localization support. 0 answer leaks.
-
 export default function QuestionVisualFigure({ visual, languageMode = "BM" }) {
   if (!visual || !visual.type) return null;
 
